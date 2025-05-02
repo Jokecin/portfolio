@@ -1,0 +1,14 @@
+{
+  "nav.home": "Inicio",
+  "nav.about": "Sobre mí",
+  "nav.experience": "Experiencia",
+  "nav.projects": "Proyectos",
+  "nav.skills": "Habilidades",
+  "nav.contact": "Contacto",
+
+  "home.title": "¡Hola! Soy ",
+  "home.description": "Ingeniero Civil en Informática que convierte datos y arquitecturas cloud en productos reales.",
+
+  "about.description": "Apasionado del desarrollo full-stack, machine learning y DevOps. He trabajado con Spring Boot, React y AWS, integrando pipelines de CI/CD para entregar software de alta calidad y escalable."
+}
+  

@@ -1,0 +1,16 @@
+{
+
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.experience": "Experience",
+    "nav.projects": "Projects",
+    "nav.skills": "Skills",
+    "nav.contact": "Contact",
+  
+    "home.title": "Hi! I'm ",
+    "home.description": "Computer Engineer turning data and cloud architectures into real-world products.",
+
+    "about.description": "Full-stack, machine learning & DevOps enthusiast. I’ve worked with Spring Boot, React and AWS, integrating CI/CD pipelines to deliver high-quality, scalable software."
+
+  }
+  
