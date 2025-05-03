@@ -7,8 +7,6 @@ import ProjectCard from '@/components/ProjectCard';
 import { projects } from '@/data/projects';
 import { experience } from '@/data/experience';
 import { skills } from '@/data/skills';
-//import ParticlesBackground from '@/components/ParticlesBackground';
-//import ScrollDownIndicator from '@/components/ScrollDownIndicator';
 
 export default function Home() {
   const { lang, t } = useLanguage();
@@ -23,9 +21,7 @@ export default function Home() {
           {t('home.title')} <span className="text-indigo-400">Matías Araya</span>
         </h1>
         <p className="max-w-xl text-center opacity-80">{t('home.description')}</p>
-        {/*<ParticlesBackground />*/}
         <HeroCanvas />
-        {/*<ScrollDownIndicator />*/}
       </section>
 
       {/* ABOUT */}
