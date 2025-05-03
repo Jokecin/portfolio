@@ -7,7 +7,7 @@ import ProjectCard from '@/components/ProjectCard';
 import { projects } from '@/data/projects';
 import { experience } from '@/data/experience';
 import { skills } from '@/data/skills';
-import ParticlesBackground from '@/components/ParticlesBackground';
+//import ParticlesBackground from '@/components/ParticlesBackground';
 //import ScrollDownIndicator from '@/components/ScrollDownIndicator';
 
 export default function Home() {

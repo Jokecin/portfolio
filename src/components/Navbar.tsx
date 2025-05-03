@@ -34,7 +34,7 @@ export default function Navbar() {
       if (el) observer.observe(el);
     });
     return () => observer.disconnect();
-  }, []);
+  }, [sections]);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md px-6 py-4 flex items-center">
