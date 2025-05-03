@@ -2,6 +2,7 @@
 import './globals.css';
 import { ThemeProvider } from 'next-themes';
 import { LanguageProvider } from '@/context/LanguageContext';
+import ScrollProgress from '@/components/ScrollProgress'; // ← importa aquí
 
 export const metadata = {
   title: 'Portfolio Matías Araya',
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           disableTransitionOnChange
         >
           <LanguageProvider>
+            <ScrollProgress />   {/* ← aquí */}
             {children}
           </LanguageProvider>
         </ThemeProvider>

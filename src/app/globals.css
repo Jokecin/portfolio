@@ -20,14 +20,18 @@
 }
 
 body {
-  @apply bg-white text-gray-900;
+  @apply bg-gradient-to-b from-indigo-50 via-white to-white text-gray-900;
 }
 
 html.dark body {
-  @apply bg-gray-900 text-gray-100;
+  @apply bg-gradient-to-b from-indigo-900 via-black to-black text-gray-100;
 }
 
 
 html {
   scroll-behavior: smooth;   
+}
+
+.card {
+  @apply bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-indigo-700/20 shadow-sm hover:shadow-md transition-shadow;
 }
