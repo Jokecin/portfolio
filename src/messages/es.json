@@ -9,6 +9,9 @@
   "home.title": "¡Hola! Soy ",
   "home.description": "Ingeniero Civil en Informática que convierte datos y arquitecturas cloud en productos reales.",
 
-  "about.description": "Apasionado del desarrollo full-stack, machine learning y DevOps. He trabajado con Spring Boot, React y AWS, integrando pipelines de CI/CD para entregar software de alta calidad y escalable."
+  "about.paragraphs": [
+    "Ingeniero Civil en Informática y Telecomunicaciones (UDP, 2024) con experiencia en auditoría TI (Deloitte), desarrollo de microservicios en AWS (Inmetrics) y proyectos de Machine Learning para optimizar logística (Grupo Central). Realicé un intercambio en la Universidad de Cantabria, donde profundicé en la Ingeniería de Software",
+    "Mi sello es traducir problemas complejos en soluciones técnicas medibles: diseñé pipelines CI/CD que redujeron ciclos de release de días a horas, y mantuve más de 1 000 scripts de prueba que elevaron la calidad y la cobertura. En ML, construí un modelo XGBoost para predecir ventas diarias, alcanzando un R² de 0.55 en primera iteración.",
+    "Fuera del teclado disfruto tocando guitarra, piano y otros instrumentos, explorando nuevas lecturas y resolviendo puzzles. Esta combinación de técnica, creatividad y curiosidad constante me impulsa a afrontar desafíos con energía y colaboración."
+  ]
 }
-  

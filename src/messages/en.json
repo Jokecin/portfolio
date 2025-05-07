@@ -1,16 +1,17 @@
 {
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.experience": "Experience",
+  "nav.projects": "Projects",
+  "nav.skills": "Skills",
+  "nav.contact": "Contact",
 
-    "nav.home": "Home",
-    "nav.about": "About",
-    "nav.experience": "Experience",
-    "nav.projects": "Projects",
-    "nav.skills": "Skills",
-    "nav.contact": "Contact",
-  
-    "home.title": "Hi! I'm ",
-    "home.description": "Computer Engineer turning data and cloud architectures into real-world products.",
+  "home.title": "Hello! I'm ",
+  "home.description": "Civil Engineer in Computer Science who transforms data and cloud architectures into real products.",
 
-    "about.description": "Full-stack, machine learning & DevOps enthusiast. I’ve worked with Spring Boot, React and AWS, integrating CI/CD pipelines to deliver high-quality, scalable software."
-
-  }
-  
+  "about.paragraphs": [
+    "Civil Engineer in Computer Science and Telecommunications (UDP, 2024) with experience in IT audit (Deloitte), microservices development on AWS (Inmetrics), and Machine Learning projects to optimize logistics (Grupo Central). I completed an exchange at the University of Cantabria, where I deepened my studies in Software Engineering.",
+    "My hallmark is translating complex problems into measurable technical solutions: I designed CI/CD pipelines that reduced release cycles from days to hours, and maintained over 1,000 test scripts that improved quality and coverage. In ML, I built an XGBoost model to predict daily sales, achieving an R² of 0.55 in the first iteration.",
+    "Beyond the keyboard, I enjoy playing guitar, piano, and other instruments, exploring new books, and solving puzzles. This blend of technical skill, creativity, and constant curiosity drives me to tackle challenges with energy and collaboration."
+  ]
+}

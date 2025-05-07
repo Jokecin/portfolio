@@ -5,14 +5,14 @@ import esMessages from '@/messages/es.json';
 import enMessages from '@/messages/en.json';
 
 type Lang = 'es' | 'en';
-type Messages = Record<string, string>;
+type Messages = Record<string, string | string[]>;
 
 const allMessages: Record<Lang, Messages> = { es: esMessages, en: enMessages };
 
 interface LanguageContextType {
   lang: Lang;
   setLang: (l: Lang) => void;
-  t: (key: string) => string;
+  t: (key: string) => string | string[];
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
